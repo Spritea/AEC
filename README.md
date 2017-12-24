@@ -7,4 +7,8 @@ alternative function of `spectrogram()` ,so I use the old GUI framework back.
 you can just use the folder to see the result.
 * `Filter_param` is used to find the best params for different types of filters. If you want to learn more about the detail, 
 you can dig up.
-* If you know Chinese, just see `MATLAB代码说明.pdf`. :)
+* If you know Chinese, just see `MATLAB代码说明.pdf`. :)  
+
+**Version: Matlab R2017b. This should work on Matlab R2016b and above.  
+Since filter function has changed after R2016b, you need to change a bit of the usage of filter functions, say use `step()` function 
+if your Matlab is not so new.**
